@@ -13,5 +13,5 @@
 # limitations under the License.
 
 FROM alpine
-COPY helloworld2.sh /
-CMD ["/helloworld2.sh"]
+COPY helloworld.sh /
+CMD ["/helloworld.sh"]
